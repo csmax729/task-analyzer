@@ -1,7 +1,7 @@
-from django.contrib import admin
-from django.urls import path, include
+from django.urls import path
+from .views import analyze_tasks, suggest_tasks
 
 urlpatterns = [
-    path("admin/", admin.site.urls),
-    path("api/tasks/", include("tasks.urls")),
+    path("analyze/", analyze_tasks),
+    path("suggest/", suggest_tasks),
 ]
