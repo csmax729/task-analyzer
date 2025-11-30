@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Research topic",
+    "importance": 8,
+    "estimated_hours": 2,
+    "due_date": "2025-03-05",
+    "dependencies": []
+  },
+  {
+    "title": "Write report",
+    "importance": 7,
+    "estimated_hours": 4,
+    "due_date": "2025-03-10",
+    "dependencies": ["Research topic"]
+  }
+]
