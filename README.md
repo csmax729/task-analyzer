@@ -52,14 +52,13 @@ venv\Scripts\activate        # Windows
 pip install -r requirements.txt
 ```
 4. Run migrations
+ ```bash
 python manage.py migrate
-
-5. Backend runs at:
-👉 http://127.0.0.1:8000
-
-Frontend (static) can be opened directly from:
-👉 frontend/index.htmlStart the server
+```
+5. Start the server
+```bash
 python manage.py runserver
+```
 
 
 🛠 API Documentation
@@ -390,4 +389,5 @@ This project demonstrates:
   Robust testing
 
   Clear documentation
+
 
